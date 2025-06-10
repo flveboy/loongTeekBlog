@@ -1,0 +1,123 @@
+/* 鼠标样式 */
+body {
+    cursor: url(/mouse/default.cur), auto;
+  }
+  
+a,button,img, svg,input,textarea,select,option,label,span {
+  cursor: url(/mouse/pointer.cur), auto !important;
+}
+
+
+// 侧边栏目录最外侧竖线
+.group:has([role='button']) .VPSidebarItem.level-0 .items { padding-left: 16px !important; border-left: 1px solid var(--vp-c-divider); border-radius: 2px; transition: background-color 0.25s; }
+
+
+
+//给头像加一个背景图片
+.tk-my__avatar .tk-avatar {
+  width: 120px;  /* 固定宽度 */
+  height: auto;  /* 高度自适应保持比例 */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+  aspect-ratio: 1/1;  /* 强制1:1宽高比 */
+  object-fit: cover;   /* 保持图片填充不变形 */
+}
+
+
+.tk-my__avatar {
+  position: relative;
+  // background-image: url('/img/bg/14.webp');
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  overflow: hidden;
+  min-height: 200px;  /* 适当增加容器高度 */
+  aspect-ratio: 16/9; /* 容器宽高比 */
+}
+
+// 移动端适配
+@media (max-width: 768px) {
+  .tk-my__avatar .tk-avatar {
+    width: 80px;  /* 缩小尺寸 */
+    height: auto;  
+  }
+  .tk-my__avatar {
+    min-height: 150px;
+    aspect-ratio: 4/3; /* 移动端调整容器比例 */
+  }
+}
+
+
+
+
+
+// wide尺寸宽度
+.tk-segment-nav .VPContent:not(.is-home) .VPDoc:not(.has-sidebar) .container>.content {
+  max-width: 1480px ;
+}
+
+
+
+// 看板娘提示宽度
+#oml2d-tips{
+  width: 200px !important;
+}
+
+// 切换路由进度条颜色样式
+.nprogress .bar {
+  background: linear-gradient(
+    114.2deg,
+    rgba(184, 215, 21, 1) -15.3%,
+    rgba(148, 187, 233, 1) 14.5%,
+    rgba(21, 215, 182, 1) 38.7%,
+    rgba(129, 189, 240, 1) 58.8%,
+    rgba(219, 108, 205, 1) 77.3%,
+    rgba(240, 129, 129, 1) 88.5%
+  ) !important;
+}
+
+
+
+
+
+/* 页脚微章居中 */
+.tk-footer-info p {
+  display: flex;
+  justify-content: center;
+}
+
+/* 移动端页脚微章布局 */
+@media (max-width: 768px) {
+  .tk-footer-info p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-weight: 500;
+  }
+  
+  .tk-footer-info p a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.2rem;
+  }
+}
+
+/* 页脚微章图片 */
+.tk-footer-info p img {
+  margin-left: 10px;
+}
+
+
+
+
+
+.nav-item {
+  display: flex;
+  align-items: center;
+}
