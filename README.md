@@ -1,7 +1,9 @@
 # loongTeekBlog
 a blog copy from teek-one 
 **个人感觉太花里胡哨了,好看是好看，但是不适合我，太麻烦了**
+![image](https://github.com/user-attachments/assets/bc24f304-e57b-4f14-bb87-20344e47de20)
 
+**![未使用](https://github.com/flveboy/flveboy/raw/main/badge/unused.svg)**
 
 ## 全网最美博客-Teek
 
