@@ -1,0 +1,6 @@
+status: offline  # 状态：online, offline, maintenance
+statusText:
+  online: "运行中"
+  offline: "已下线"
+  maintenance: "维护中"
+checkUrl: https://your-project-url.com  # 可选：用于自动检查状态的URL
