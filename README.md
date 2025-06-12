@@ -1,8 +1,7 @@
-# loongTeekBlog
+# ![未使用](https://github.com/flveboy/flveboy/raw/main/badge/unused.svg)loongTeekBlog
 a blog copy from teek-one 
 **个人感觉太花里胡哨了,好看是好看，但是不适合我，太麻烦了**
 
-**![未使用](https://github.com/flveboy/flveboy/raw/main/badge/unused.svg)**
 
 ## 全网最美博客-Teek
 
